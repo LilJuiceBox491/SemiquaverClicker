@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Semiquaver Clicker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <a href="https://github.com/LilJuiceBox491/SemiquaverClicker" target="_blank" style="text-decoration:none;color:black;"><h1>Semiquaver Clicker!</h1></a>
+    <br>
+    <img draggable=false onClick="clicked();" src="semiquaver.png" alt="Semiquaver" id="clickSemiquaver" style="width:25%;">
+    <br>
+    <br>
+    <p id="clickCount">Click To Gain Points....</p><br>
+
+    <div class="powerupsSection">
+      <h2>Powerups</h2>
+      <ul>
+        <li id="studentAmt">You Have 0 Music Student(s)</li>
+        <li id="intermedAmt">You Have 0 Intermediate Musician(s)</li>
+        <li id="professionalAmt">You Have 0 Professional Musician(s)</li>
+        <li id="aiAmt">You Have 0 AI Composer(s)</li>
+        <li id="composerAmt">You Have 0 Classical Composer(s)</li>
+        <li id="computerStrength">Your Computer Is Nonexistant</li>
+      </ul>
+    </div>
+
+    <div class="upgradesSection">
+      <h2>Upgrades</h2>
+      <button id="hireStudentBtn" onClick="hireStudent();">Hire a Music Student - ♬100</button>
+      <button id="hireIntermedBtn" onClick="hireIntermed();">Hire an Intermediate Musician - ♬350</button>
+      <button id="hireProfessionalBtn" onClick="hireProfessional();">Hire a Professional Musician - ♬600</button>
+      <button id="hireAIBtn" onClick="hireAI();">Hire an AI Composer - ♬1250</button>
+      <button id="hireComposerBtn" onClick="hireComposer();">Hire a Classical Composer - ♬2500</button>
+    </div>
+
+    <div class="upgradeBoosterSection">
+      <h2>Upgrade Boosters</h2>
+      <button id="strengthenComputerBtn" onClick="strengthenComputer();">Strengthen Computer (Increase AI Speed) - ♬1700</button>
+    </div>
+
+    <div class="dynamicSection">
+      <h3 id="dynamic">Current Dynamic: Piano</h2>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

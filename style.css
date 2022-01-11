@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
+* {
+  font-family: "Poppins";
+  padding: 8px;
+}
+
+body {
+  overflow:hidden;
+}
+
+h1, p {
+  text-align: center;
+}
+
+img {
+  width: 30%;
+  padding-left: 455px!important;
+}
+
+.powerupsSection {
+  position: absolute;
+  top: 15%;
+  right: 70%;
+}
+
+.upgradesSection {
+  position: absolute;
+  top: 9%;
+  left: 70%;
+}
+
+.upgradeBoosterSection {
+  position: absolute;
+  top: 54%;
+  left: 70%;
+}
+
+.dynamicSection {
+  position: relative;
+  top: -40px;
+  text-align: center;
+}
